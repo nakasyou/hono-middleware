@@ -840,6 +840,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/workers-types@npm:^4.20251014.0":
+  version: 4.20251014.0
+  resolution: "@cloudflare/workers-types@npm:4.20251014.0"
+  checksum: 10c0/11cf2e509b673f4d2d980e56a074c95ae085e6685a4e7afd9907b6f32b96ad9528ee125451feed04035c4eface939503c6259a40864890ccc46e53edd4e57042
+  languageName: node
+  linkType: hard
+
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -1994,6 +2001,25 @@ __metadata:
   dependencies:
     "@arethetypeswrong/cli": "npm:^0.18.2"
     hono: "npm:^4.10.1"
+    publint: "npm:^0.3.14"
+    tsup: "npm:^8.5.0"
+    typescript: "npm:^5.8.2"
+    vitest: "npm:^3.2.4"
+  peerDependencies:
+    hono: ">=4.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@hono/html-rewriter@workspace:packages/html-rewriter":
+  version: 0.0.0-use.local
+  resolution: "@hono/html-rewriter@workspace:packages/html-rewriter"
+  dependencies:
+    "@arethetypeswrong/cli": "npm:^0.18.2"
+    "@cloudflare/workers-types": "npm:^4.20251014.0"
+    bun-types: "npm:^1.3.1"
+    hono: "npm:^4.10.1"
+    html-rewriter-wasm: "npm:^0.4.1"
+    htmlrewriter: "npm:^0.0.13"
     publint: "npm:^0.3.14"
     tsup: "npm:^8.5.0"
     typescript: "npm:^5.8.2"
@@ -6012,6 +6038,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bun-types@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "bun-types@npm:1.3.1"
+  dependencies:
+    "@types/node": "npm:*"
+  peerDependencies:
+    "@types/react": ^19
+  checksum: 10c0/4429af038fe2807466a0bb30dc2515ddd197d0869237b9b29b8b8ce6d40cca26f21d2afa1ee583f9eb28b94480c08a16d3a4f0e13b3bf3aa3a3807c47df24b6f
+  languageName: node
+  linkType: hard
+
 "bundle-require@npm:^5.1.0":
   version: 5.1.0
   resolution: "bundle-require@npm:5.1.0"
@@ -9482,6 +9519,20 @@ __metadata:
   version: 2.0.2
   resolution: "html-escaper@npm:2.0.2"
   checksum: 10c0/208e8a12de1a6569edbb14544f4567e6ce8ecc30b9394fcaa4e7bb1e60c12a7c9a1ed27e31290817157e8626f3a4f29e76c8747030822eb84a6abb15c255f0a0
+  languageName: node
+  linkType: hard
+
+"html-rewriter-wasm@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "html-rewriter-wasm@npm:0.4.1"
+  checksum: 10c0/54b13625578de30cabfea97e564cbb1782ce1087a93c83aa1d43ecb4a3f8a8fcfeaf3d9d0ba9a08b01adc8ce3abcee4b61a9068580b7859ff257dacb0bb64ed2
+  languageName: node
+  linkType: hard
+
+"htmlrewriter@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "htmlrewriter@npm:0.0.13"
+  checksum: 10c0/290818bae1fbbaec8b2bce63bdbc7d7dd26b9c707ec0eda4dcae84e5c7bd95e79a07379036b77ecca991e3eba18e4739d5d3e11ecf633e8b38dc4052976fb6d0
   languageName: node
   linkType: hard
 
